@@ -1,0 +1,163 @@
+.primary-overlay {
+	background: rgba(77, 68, 57, 0.6);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.main-header {
+	background: url(../img/road.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	min-height: 600px;
+	color: #fff;
+	position: relative;
+}
+
+.nav-wrapper {
+	height: 20px;
+}
+
+.main-header .showcase {
+	padding-top: 180px;
+	left: 47%;
+	text-align: center;
+}
+
+.scroll-icon {
+	position: absolute;
+	bottom: 5%;
+	left: 48%;
+	opacity: 0.5;
+}
+
+@media (max-width: 600px) {
+	.scroll-icon {
+		left: 45%;
+	}
+}
+
+/* about section */
+
+.profile-img {
+	padding-top: 30px;
+}
+
+.toolbox {
+	margin: 0 auto;
+	text-align: center;
+	width: 60%;
+	padding-top: 25px;
+}
+
+.toolbox-bottom-row {
+	padding-bottom: 40px;
+}
+
+.icons {
+	padding: 5px;
+}
+
+.toolbox-icons {
+	width: 90px;
+	transition: all 0.1s;
+}
+
+.toolbox-icons:hover {
+	transform: scale(1.1);
+}
+
+#jquery-icon {
+	width: 80px;
+}
+
+.node-mongo-icons {
+	width: 120px;
+}
+
+@media (max-width: 600px) {
+	.toolbox-icons {
+		width: 67px;
+	}
+}
+
+@media (max-width: 600px) {
+	#jquery-icon {
+		width: 55px;
+	}
+}
+
+/* ======= projects section */
+
+.section-projects {
+	padding-bottom: 40px;
+}
+
+.projectsH2 {
+	margin-top: 0;
+	padding-top: 40px;
+	margin-bottom: 20px;
+}
+
+.box {
+	padding: 5px 15px !important;
+}
+
+h4 {
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+.projects-header {
+	padding-top: 20px;
+}
+
+.section-boxes .row {
+	margin-bottom: 0 !important;
+	text-align: center;
+}
+
+.card {
+	transition: all .5s;
+}
+
+.card:hover {
+	transform: scale(1.04);
+}
+
+/* Contact section ================================= */
+
+.contact-section {
+	width: 50%;
+	text-align: center;
+	margin: auto;
+	color: white;
+}
+
+.contact-section a {
+	text-decoration: none;
+	color: white;
+}
+
+.contact-section a:hover {
+	color: lightblue;
+}
+
+#contact-h2 {
+	color: white;
+	padding-top: 30px;
+	margin-top: 0;
+}
+
+.contact-icons {
+	text-align: center;
+}
+
+.fa-2x {
+	color: whitesmoke;
+	padding: 25px 15px 35px;
+}
